@@ -1,0 +1,19 @@
+- name: Markdown-HTML
+  # You may pin to the exact commit or the version.
+  # uses: ZacJW/markdown-html-action@581e6df07c787a1eb980cb2fd6c0c82ace9c9c82
+  uses: ZacJW/markdown-html-action@1.2.0
+  with:
+    # A JSON list of a list of paths to markdown files to render in to HTML files
+    input_files: INDEX.md
+    # A JSON list of paths to save the rendered HTML files to
+    output_files: index.html
+    # (boolean) Whether or not a file should be automatically excluded from being included more than once in a given output file
+    exclude_duplicates: # default is true
+    # An optional path to a CSS file that will be included as a <style> block in every output file
+    builtin_stylesheet: # default is 
+    # A JSON list of extensions to be passed to Python markdown
+    extensions: # default is ["extra"]
+    # A JSON object of extension configurations
+    extension_configs: # default is {}
+    # A space separated list of Python packages to be installed before execution (useful for installing third-party markdown extensions)
+    packages: # default is 
