@@ -1,4 +1,4 @@
-# taliops
+# TaliOps
 
 Providing consultation and integration services in the areas of DevOps, CI/CD and most everything around automation with a focus on security. Helping businesses meet the challenge of hybrid cloud migration! 
 
