@@ -10,8 +10,8 @@ jobs:
       uses: ZacJW/markdown-html-action@1.2.0
       with:
         # A JSON list of a list of paths to markdown files to render in to HTML files
-        input_files: INDEX.md
+        input_files: '["INDEX.md"]'
         # A JSON list of paths to save the rendered HTML files to
-        output_files: index.html
+        output_files: '["index.html"]'
         # (boolean) Whether or not a file should be automatically excluded from being included more than once in a given output file
         exclude_duplicates: true # default is true
